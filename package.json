@@ -1,0 +1,18 @@
+{
+  "name": "github-grap-specific",
+  "version": "1.0.0",
+  "description": "Creates a specific timeline for commit and numbers of commit also",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.30.1",
+    "random-int": "^3.0.0",
+    "simple-git": "^3.27.0"
+  }
+}

@@ -46,3 +46,12 @@ async function makeCommit(n) {
 
 // 🔹 Call the function to make a set number of commits (modify the number as needed)
 makeCommit(100); // This will create 100 commits in the specified date range
+
+
+
+
+// On a new machine try all these
+//  touch .gitignore to create gitignore
+// npm init -y to configure jason package
+// npm install jsonfile moment simple-git random-int  (to install all packages)
+// make sure to push index file with github desktop and also make sure to change the date before you start pushing
