@@ -45,11 +45,11 @@ async function makeCommit(n) {
 }
 
 // 🔹 Call the function to make a set number of commits (modify the number as needed)
-makeCommit(30); // This will create 100 commits in the specified date range
+makeCommit(10); // This will create 100 commits in the specified date range
 
 
 
-// node index.js
+// node index.js command to run
 // On a new machine try all these
 //  touch .gitignore to create gitignore
 // npm init -y to configure jason package
