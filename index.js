@@ -5,8 +5,8 @@ const simpleGit = require('simple-git');
 const FILE_PATH = './data.json';
 
 // 🔹 Set the date range for commits (Modify these dates as needed)
-const START_DATE = moment("2025-03-24", "YYYY-MM-DD"); // Start date
-const END_DATE = moment("2025-04-08", "YYYY-MM-DD");   // End date
+const START_DATE = moment("2023-01-16", "YYYY-MM-DD"); // Start date
+const END_DATE = moment("2025-04-19", "YYYY-MM-DD");   // End date
 
 /**
  * Recursively makes a series of Git commits with randomly generated dates
@@ -45,7 +45,7 @@ async function makeCommit(n) {
 }
 
 // 🔹 Call the function to make a set number of commits (modify the number as needed)
-makeCommit(10); // This will create 100 commits in the specified date range
+makeCommit(700); // This will create 100 commits in the specified date range
 
 
 
